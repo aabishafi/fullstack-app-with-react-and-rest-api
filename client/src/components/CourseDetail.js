@@ -18,7 +18,7 @@ class CourseDetail extends Component {
         if (data) {
           this.setState({
             courseInfo: data,
-            userInfo: data.User
+            userInfo: data.user
           })
         } else {
           this.props.history.push('/notfound');
